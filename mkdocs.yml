@@ -1,0 +1,101 @@
+site_name: SHU Cyberspace Security 101
+site_url: https://ZJU-Turing.github.io/TuringCourses/
+site_description: SHU Cyberspace Security 101
+repo_name: LuminolT/SHU-Cyberspace-Security-101
+repo_url: https://github.com/LuminolT/SHU-Cyberspace-Security-101
+edit_uri: tree/master/docs
+copyright: Copyright &copy; 2023 SHU-Cake1salie
+
+nav:
+  - 主页:
+      - index.md
+      - 贡献指南: contributing.md
+      - 网站结构: structure.md
+      - 课程页面模板: template.md
+      - 更新历史: changelog.md
+  - 计算机课程:
+      - 1_course_computer/index.md
+      - 高级语言程序设计: 1_course_computer/08304135_ALP/index.md
+  - 网安专业课:
+      - 2_course_security/index.md
+  - 暑期实训:
+      - 3_course_summer/index.md
+  - 安全攻防:
+      - 4_security_ad/index.md
+  - 安全研究:
+      - 5_security_research/index.md
+  - 留言区:
+      - 6_forum/index.md
+
+theme:
+  name: "material"
+  language: "zh"
+  # logo: images/icon.png
+  icon:
+    logo: material/notebook-outline
+    repo: fontawesome/brands/github
+    edit: material/pencil
+  custom_dir: overrides
+  favicon: images/icon.png
+  features:
+    - content.code.annotate
+    - content.action.edit
+    - navigation.tracking
+    - navigation.top
+    - navigation.tabs
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+  font:
+    # text: Noto Serif SC
+    code: JetBrains Mono
+  palette:
+    - scheme: default
+
+plugins:
+  - search
+  - heti:
+      extra_skipped_class:
+        - arithmatex
+  - turing_changelog
+  - turing_contributors
+
+extra_css:
+  - https://fonts.googleapis.com/css?family=Noto+Serif+SC:300,300i,400,400i,700,700i&display=fallback
+  - css/tasklist.css
+  - css/card.css
+  - css/custom.css
+
+extra_javascript:
+  - js/katex.js
+
+markdown_extensions:
+  - toc:
+      permalink: true
+      toc_depth: 4
+  - meta
+  - def_list
+  - attr_list
+  - md_in_html
+  - sane_lists
+  - admonition
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.magiclink
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.arithmatex:
+      generic: true

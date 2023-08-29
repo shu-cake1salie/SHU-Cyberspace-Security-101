@@ -1,0 +1,25 @@
+name: deploy
+on:
+  push:
+    branches:
+      - master 
+permissions:
+  contents: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+      - run: pip install -r requirements.txt
+      - name: Install TuringPlugins
+        run: |
+          git clone https://github.com/ZJU-Turing/TuringPlugins.git
+          cd TuringPlugins
+          pip install -e .
+          cd ..
+      - run: mkdocs gh-deploy --force
