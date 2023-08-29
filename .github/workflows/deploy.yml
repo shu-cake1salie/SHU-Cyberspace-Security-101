@@ -1,9 +1,9 @@
 name: deploy
 on:
-  workflow_dispatch:
   push:
     branches:
       - master
+  workflow_dispatch:
 permissions:
   contents: write
 jobs:
