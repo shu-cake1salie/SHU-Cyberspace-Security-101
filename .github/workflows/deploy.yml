@@ -18,8 +18,6 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Install security-101-plugins
         run: |
-          git submodule sync
-          git submodule update --remote
           cd security-101-plugins
           pip install -e .
           cd ..
