@@ -1,0 +1,3 @@
+[submodule "security-101-plugins"]
+	path = security-101-plugins
+	url = git@github.com:LuminolT/security-101-plugins.git
