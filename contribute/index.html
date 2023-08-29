@@ -4,7 +4,7 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="SHU Cyberspace Security 101" name="description"/>
-<link href="https://shu-cake1salie.github.io/contributing/" rel="canonical"/>
+<link href="https://shu-cake1salie.github.io/contribute/" rel="canonical"/>
 <link href=".." rel="prev"/>
 <link href="../structure/" rel="next"/>
 <link href="../images/icon.png" rel="icon"/>
@@ -442,7 +442,7 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<a class="md-content__button md-icon" href="https://github.com/shu-cake1salie/SHU-Cyberspace-Security-101/tree/master/docs/contributing.md" title="编辑此页">
+<a class="md-content__button md-icon" href="https://github.com/shu-cake1salie/SHU-Cyberspace-Security-101/tree/master/docs/contribute.md" title="编辑此页">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"></path></svg>
 </a>
 <h1 id="_1">贡献指南<a class="headerlink" href="#_1" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h1>
@@ -452,17 +452,16 @@
 <h2 id="_2">本地构建<a class="headerlink" href="#_2" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h2>
 <ol>
 <li>克隆本项目<span><span class="heti-spacing"> </span>repo</span>
-<div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a>$<span class="w"> </span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/ZJU-Turing/TuringCourses.git
-<a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a>$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>TuringCourses
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a>$<span class="w"> </span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/shu-cake1salie/SHU-Cyberspace-Security-101.git<span class="w"> </span>--recursive
+<a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a>$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>SHU-Cyberspace-Security-101
 </code></pre></div></li>
 <li>安装<span class="heti-skip"><span class="heti-spacing"> </span>python<span class="heti-spacing"> </span></span>依赖（<span>mkdocs<span class="heti-spacing"> </span></span>以及<span><span class="heti-spacing"> </span>material</span>）
     <div class="highlight"><pre><span></span><code><a href="#__codelineno-1-1" id="__codelineno-1-1" name="__codelineno-1-1"></a>$<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
 </code></pre></div></li>
 <li>安装本文档专用插件
-    <div class="highlight"><pre><span></span><code><a href="#__codelineno-2-1" id="__codelineno-2-1" name="__codelineno-2-1"></a>$<span class="w"> </span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/ZJU-Turing/TuringPlugins.git
-<a href="#__codelineno-2-2" id="__codelineno-2-2" name="__codelineno-2-2"></a>$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>TuringPlugins
-<a href="#__codelineno-2-3" id="__codelineno-2-3" name="__codelineno-2-3"></a>$<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>-e<span class="w"> </span>.
-<a href="#__codelineno-2-4" id="__codelineno-2-4" name="__codelineno-2-4"></a>$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>..
+    <div class="highlight"><pre><span></span><code><a href="#__codelineno-2-1" id="__codelineno-2-1" name="__codelineno-2-1"></a>$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>security-101-plugins
+<a href="#__codelineno-2-2" id="__codelineno-2-2" name="__codelineno-2-2"></a>$<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>-e<span class="w"> </span>.
+<a href="#__codelineno-2-3" id="__codelineno-2-3" name="__codelineno-2-3"></a>$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>..
 </code></pre></div></li>
 <li>启动<span class="heti-skip"><span class="heti-spacing"> </span>mkdocs<span class="heti-spacing"> </span></span>本地服务
     <div class="highlight"><pre><span></span><code><a href="#__codelineno-3-1" id="__codelineno-3-1" name="__codelineno-3-1"></a>$<span class="w"> </span>mkdocs<span class="w"> </span>serve
@@ -471,28 +470,32 @@
 </ul>
 </li>
 </ol>
+<p>若之前未通过 <code>--recursive</code> 拉取<span><span class="heti-spacing"> </span>submodule</span>，可如下操作拉取插件：</p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-4-1" id="__codelineno-4-1" name="__codelineno-4-1"></a>$<span class="w"> </span>git<span class="w"> </span>submodule<span class="w"> </span>sync
+<a href="#__codelineno-4-2" id="__codelineno-4-2" name="__codelineno-4-2"></a>$<span class="w"> </span>git<span class="w"> </span>submodule<span class="w"> </span>update<span class="w"> </span>--init
+</code></pre></div>
 <h2 id="_3">贡献内容<a class="headerlink" href="#_3" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h2>
 <h3 id="_4">网站结构<a class="headerlink" href="#_4" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h3>
 <p>目前本站内容根据课程类别进行分组，然后在根据课程单独分页，每页内记录关于该课程的介绍、学习资料、学习技巧等。</p>
 <p>在源代码层面，使用<span class="heti-skip"><span class="heti-spacing"> </span>markdown<span class="heti-spacing"> </span></span>进行编写，每一门课程是一个文件夹，路径和网站链接路径保持一致，文件夹内 <code>index.md</code> 为该门课程的主页，文件夹内可以存放该课程的图片素材、学习资料等等。整体结构在 <code>mkdocs.yml</code> 文件中的 <code>nav</code> 部分定义。</p>
-<div class="highlight"><pre><span></span><code><a href="#__codelineno-4-1" id="__codelineno-4-1" name="__codelineno-4-1"></a>.
-<a href="#__codelineno-4-2" id="__codelineno-4-2" name="__codelineno-4-2"></a>├── docs
-<a href="#__codelineno-4-3" id="__codelineno-4-3" name="__codelineno-4-3"></a>│   ├── contributing.md      # 本页
-<a href="#__codelineno-4-4" id="__codelineno-4-4" name="__codelineno-4-4"></a>│   ├── template.md          # 课程页面模板
-<a href="#__codelineno-4-5" id="__codelineno-4-5" name="__codelineno-4-5"></a>│   ├── index.md             # 主页
-<a href="#__codelineno-4-6" id="__codelineno-4-6" name="__codelineno-4-6"></a>│   ├── css/                 # 本站用到的所有 css 样式
-<a href="#__codelineno-4-7" id="__codelineno-4-7" name="__codelineno-4-7"></a>│   ├── general/             # 通识选修课
-<a href="#__codelineno-4-8" id="__codelineno-4-8" name="__codelineno-4-8"></a>│   ├── images/              # 仅用来保存网站图标
-<a href="#__codelineno-4-9" id="__codelineno-4-9" name="__codelineno-4-9"></a>│   ├── js/                  # 本站用到的所有 js 脚本
-<a href="#__codelineno-4-10" id="__codelineno-4-10" name="__codelineno-4-10"></a>│   ├── 1_course_computer/   # 计算机课程
-<a href="#__codelineno-4-11" id="__codelineno-4-11" name="__codelineno-4-11"></a>│   ├── 2_course_security/   # 网安专业课
-<a href="#__codelineno-4-12" id="__codelineno-4-12" name="__codelineno-4-12"></a>│   ├── 3_course_summer/     # 暑期实训
-<a href="#__codelineno-4-13" id="__codelineno-4-13" name="__codelineno-4-13"></a>│   ├── 4_security_ad/       # 安全攻防
-<a href="#__codelineno-4-14" id="__codelineno-4-14" name="__codelineno-4-14"></a>│   ├── 5_security_research/ # 安全研究
-<a href="#__codelineno-4-15" id="__codelineno-4-15" name="__codelineno-4-15"></a>│   └── 6_forum/             # 留言区
-<a href="#__codelineno-4-16" id="__codelineno-4-16" name="__codelineno-4-16"></a>├── mkdocs.yml          # mkdocs 站点设置
-<a href="#__codelineno-4-17" id="__codelineno-4-17" name="__codelineno-4-17"></a>├── overrides/          # mkdocs-material 个性主题设置
-<a href="#__codelineno-4-18" id="__codelineno-4-18" name="__codelineno-4-18"></a>└── requirements.txt    # 本站构建所需全部 python 依赖
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-5-1" id="__codelineno-5-1" name="__codelineno-5-1"></a>.
+<a href="#__codelineno-5-2" id="__codelineno-5-2" name="__codelineno-5-2"></a>├── docs
+<a href="#__codelineno-5-3" id="__codelineno-5-3" name="__codelineno-5-3"></a>│   ├── contributing.md      # 本页
+<a href="#__codelineno-5-4" id="__codelineno-5-4" name="__codelineno-5-4"></a>│   ├── template.md          # 课程页面模板
+<a href="#__codelineno-5-5" id="__codelineno-5-5" name="__codelineno-5-5"></a>│   ├── index.md             # 主页
+<a href="#__codelineno-5-6" id="__codelineno-5-6" name="__codelineno-5-6"></a>│   ├── css/                 # 本站用到的所有 css 样式
+<a href="#__codelineno-5-7" id="__codelineno-5-7" name="__codelineno-5-7"></a>│   ├── general/             # 通识选修课
+<a href="#__codelineno-5-8" id="__codelineno-5-8" name="__codelineno-5-8"></a>│   ├── images/              # 仅用来保存网站图标
+<a href="#__codelineno-5-9" id="__codelineno-5-9" name="__codelineno-5-9"></a>│   ├── js/                  # 本站用到的所有 js 脚本
+<a href="#__codelineno-5-10" id="__codelineno-5-10" name="__codelineno-5-10"></a>│   ├── 1_course_computer/   # 计算机课程
+<a href="#__codelineno-5-11" id="__codelineno-5-11" name="__codelineno-5-11"></a>│   ├── 2_course_security/   # 网安专业课
+<a href="#__codelineno-5-12" id="__codelineno-5-12" name="__codelineno-5-12"></a>│   ├── 3_course_summer/     # 暑期实训
+<a href="#__codelineno-5-13" id="__codelineno-5-13" name="__codelineno-5-13"></a>│   ├── 4_security_ad/       # 安全攻防
+<a href="#__codelineno-5-14" id="__codelineno-5-14" name="__codelineno-5-14"></a>│   ├── 5_security_research/ # 安全研究
+<a href="#__codelineno-5-15" id="__codelineno-5-15" name="__codelineno-5-15"></a>│   └── 6_forum/             # 留言区
+<a href="#__codelineno-5-16" id="__codelineno-5-16" name="__codelineno-5-16"></a>├── mkdocs.yml          # mkdocs 站点设置
+<a href="#__codelineno-5-17" id="__codelineno-5-17" name="__codelineno-5-17"></a>├── overrides/          # mkdocs-material 个性主题设置
+<a href="#__codelineno-5-18" id="__codelineno-5-18" name="__codelineno-5-18"></a>└── requirements.txt    # 本站构建所需全部 python 依赖
 </code></pre></div>
 <h3 id="_5">贡献守则<a class="headerlink" href="#_5" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h3>
 <p>你可以对本网站进行任何贡献，包括完善、更新页面内容，添加新页面，样式修改等等。</p>
@@ -503,8 +506,8 @@
 <li>对于外部资源，请尽量插入链接，不要将文件传入本<span><span class="heti-spacing"> </span>repo</span></li>
 <li>尽量不要上传有版权的文件，例如课件等</li>
 <li>对于自己的笔记、复习提纲等材料：<ul>
-<li>如果有自己的网站，推荐放在自己的网站并在此插入链接</li>
-<li>也可以将文件上传到对应课程文件夹中，并插入相对链接，例如<a href="math_phys/math_analysis1/">数分一</a>页面中的历年卷</li>
+<li>如果有自己的网站，推荐放在自己的网站并在此插入链接
+<!-- - 也可以将文件上传到对应课程文件夹中，并插入相对链接，例如<a href="math_phys/math_analysis1/">数分一</a>页面中的历年卷 --></li>
 </ul>
 </li>
 <li>尽量规范编写<span><span class="heti-spacing"> </span>markdown</span>，避免出现格式错误<ul>
@@ -514,7 +517,7 @@
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>针对还完全没有内容的空页面，我们提供了一个<a href="../template/">模板</a>，可以在模板的<a href="https://github.com/ZJU-Turing/TuringCourses/blob/master/docs/template.md?plain=1">源码</a>基础上修改使用。</p>
+<p>针对还完全没有内容的空页面，我们提供了一个<a href="../template/">模板</a>，可以在模板的<a href="https://github.com/shu-cake1salie/SHU-Cyberspace-Security-101/blob/master/docs/template.md">源码</a>基础上修改使用。</p>
 </div>
 <h3 id="_6">贡献方式<a class="headerlink" href="#_6" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h3>
 <h4 id="pull-request">Pull Request（推荐）<a class="headerlink" href="#pull-request" title="Permanent link">¶</a></h4>
