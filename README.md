@@ -1,3 +1,13 @@
+<!--
+ * @Author: LuminolT luminol.chen@gmail.com
+ * @Date: 2023-08-29 17:03:18
+ * @LastEditors: LuminolT luminol.chen@gmail.com
+ * @LastEditTime: 2023-08-29 17:59:07
+ * @FilePath: \SHU-Cyberspace-Security-101-Org\README.md
+ * @Description: 
+ * 
+ * Copyright (c) 2023 by LuminolT, All Rights Reserved. 
+-->
 # SHU Cyberspace Security 101
 ## 关于
 
@@ -31,5 +41,6 @@
 ## 开源组件
 
 - [LuminolT/security-101-plugins](https://github.com/LuminolT/security-101-plugins)
-
-源自 [ZJU-Turing/TuringPlugins](https://github.com/ZJU-Turing/TuringPlugins) 的组件，我们进行了一定的改动。
+  - 源自 [ZJU-Turing/TuringPlugins](https://github.com/ZJU-Turing/TuringPlugins) 的组件，我们进行了一定的改动。
+- [shu-cake1salie/security-101-utils](https://github.com/shu-cake1salie/security-101-utils)
+  - 相关的辅助脚本
