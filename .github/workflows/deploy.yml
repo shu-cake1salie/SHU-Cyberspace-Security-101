@@ -11,14 +11,15 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          submodules: recursive
+          fetch-depth: 0
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
       - run: pip install -r requirements.txt
       - name: Install security-101-plugins
         run: |
-          cd security-101-plugins
+          git clone https://github.com/LuminolT/security-101-plugins.git security-101-plugins-tmp
+          cd security-101-plugins-tmp
           pip install -e .
           cd ..
       - run: mkdocs gh-deploy --force
