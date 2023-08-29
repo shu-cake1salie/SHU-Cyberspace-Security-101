@@ -1,8 +1,7 @@
 # SHU Cyberspace Security 101
-
-> **Warning** 正在建设中
-
 ## 关于
+
+本站：[SHU Cyberspace Security 101](https://shu-cake1salie.github.io/SHU-Cyberspace-Security-101/)
 
 本网站灵感来源于[浙江大学图灵班学习指南](https://zju-turing.github.io/TuringCourses/)
 和[上海交通大学生存手册](https://survivesjtu.gitbook.io/survivesjtumanual/)。
@@ -26,8 +25,11 @@
 
 欢迎各位同学对本仓库进行贡献！
 
+
+> 本站基本照搬浙大 [ZJU-Turing/TuringCourses](https://github.com/ZJU-Turing/TuringCourses/) 项目，感谢浙大图灵班同学的开源贡献
+
 ## 开源组件
 
-[LuminolT/security-101-plugins](https://github.com/LuminolT/security-101-plugins)
+- [LuminolT/security-101-plugins](https://github.com/LuminolT/security-101-plugins)
 
 源自 [ZJU-Turing/TuringPlugins](https://github.com/ZJU-Turing/TuringPlugins) 的组件，我们进行了一定的改动。
