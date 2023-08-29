@@ -23,7 +23,7 @@
 因而我们希望建立一个仓库，对这些课程进行一些介绍，并补充一些课程内容供
 专业新人参考学习。
 
-欢迎各位同学对本仓库进行贡献！
+**欢迎各位同学对本仓库进行贡献！**
 
 
 > 本站基本照搬浙大 [ZJU-Turing/TuringCourses](https://github.com/ZJU-Turing/TuringCourses/) 项目，感谢浙大图灵班同学的开源贡献
