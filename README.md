@@ -1,7 +1,7 @@
 # SHU Cyberspace Security 101
 ## 关于
 
-本站：[SHU Cyberspace Security 101](https://shu-cake1salie.github.io/SHU-Cyberspace-Security-101/)
+**本站**：[SHU Cyberspace Security 101](https://shu-cake1salie.github.io/SHU-Cyberspace-Security-101/)
 
 本网站灵感来源于[浙江大学图灵班学习指南](https://zju-turing.github.io/TuringCourses/)
 和[上海交通大学生存手册](https://survivesjtu.gitbook.io/survivesjtumanual/)。
