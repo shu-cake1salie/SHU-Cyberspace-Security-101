@@ -9,7 +9,7 @@ copyright: Copyright &copy; 2023 SHU-Cake1salie
 nav:
   - 主页:
       - index.md
-      - 贡献指南: contributing.md
+      - 贡献指南: contribute.md
       - 网站结构: structure.md
       - 课程页面模板: template.md
       - 更新历史: changelog.md
