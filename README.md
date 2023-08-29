@@ -1,13 +1,3 @@
-<!--
- * @Author: LuminolT luminol.chen@gmail.com
- * @Date: 2023-08-29 06:16:43
- * @LastEditors: LuminolT luminol.chen@gmail.com
- * @LastEditTime: 2023-08-29 08:29:57
- * @FilePath: \TuringCourses\README.md
- * @Description: 
- * 
- * Copyright (c) 2023 by LuminolT, All Rights Reserved. 
--->
 # SHU Cyberspace Security 101
 
 > **Warning** 正在建设中
