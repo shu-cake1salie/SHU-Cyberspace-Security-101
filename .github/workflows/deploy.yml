@@ -18,7 +18,7 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Install security-101-plugins
         run: |
-          git clone git@github.com:LuminolT/security-101-plugins.git security-101-plugins-tmp
+          git clone https://github.com:LuminolT/security-101-plugins.git security-101-plugins-tmp
           cd security-101-plugins-tmp
           pip install -e .
           cd ..
