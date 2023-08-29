@@ -43,7 +43,7 @@ $ git submodule update --init
 ```text
 .
 ├── docs
-│   ├── contributing.md      # 本页
+│   ├── contribute.md        # 本页
 │   ├── template.md          # 课程页面模板
 │   ├── index.md             # 主页
 │   ├── css/                 # 本站用到的所有 css 样式
