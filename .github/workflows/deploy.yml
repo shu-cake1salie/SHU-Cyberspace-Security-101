@@ -16,9 +16,10 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install -r requirements.txt
-      - name: Install TuringPlugins
+      - name: Install security-101-plugins
         run: |
-          cd security-101-plugins
+          git clone git@github.com:LuminolT/security-101-plugins.git security-101-plugins-tmp
+          cd security-101-plugins-tmp
           pip install -e .
           cd ..
       - run: mkdocs gh-deploy --force
