@@ -1,13 +1,3 @@
-<!--
- * @Author: LuminolT luminol.chen@gmail.com
- * @Date: 2023-08-29 17:03:18
- * @LastEditors: LuminolT luminol.chen@gmail.com
- * @LastEditTime: 2023-08-29 17:59:07
- * @FilePath: \SHU-Cyberspace-Security-101-Org\README.md
- * @Description: 
- * 
- * Copyright (c) 2023 by LuminolT, All Rights Reserved. 
--->
 # SHU Cyberspace Security 101
 ## 关于
 
@@ -35,8 +25,13 @@
 
 **欢迎各位同学对本仓库进行贡献！**
 
-
 > 本站基本照搬浙大 [ZJU-Turing/TuringCourses](https://github.com/ZJU-Turing/TuringCourses/) 项目，感谢浙大图灵班同学的开源贡献
+
+## 进度信息
+
+目前我们整理的课程信息如[腾讯文档](https://docs.qq.com/sheet/DU0xIeHFOREdpVXNj?tab=BB08J2)所示。
+
+对于不对网安专业开放的课程信息，可以补充在表后，如果有一定数量的我们会考虑新增设栏目引入。
 
 ## 开源组件
 
