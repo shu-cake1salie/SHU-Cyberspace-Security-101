@@ -1,7 +1,7 @@
 # 信息安全技术
 <div class="badges">
-<span class="badge ai-badge"> 08A65003 </span>
-<span class="badge is-badge">网安 <必修></span>
+<span class="badge course-id-badge"> 08A65003 </span>
+<span class="badge compulsory-badge">网安 <必修></span>
 </div>
 
 ## 课程学习内容

@@ -1,7 +1,7 @@
 # 计算机安全与保密技术
 <div class="badges">
-<span class="badge ai-badge"> 08A65002 </span>
-<span class="badge is-badge">网安 <必修></span>
+<span class="badge course-id-badge"> 08A65002 </span>
+<span class="badge compulsory-badge">网安 <必修></span>
 </div>
 
 ## 课程学习内容

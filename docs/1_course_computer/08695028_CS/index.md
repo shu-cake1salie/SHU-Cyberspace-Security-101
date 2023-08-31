@@ -1,7 +1,9 @@
 # 计算机组成原理与体系结构 A
 <div class="badges">
-<span class="badge ai-badge"> 08695028 </span>
-<span class="badge cs-badge">计算机 <必修></span>
+<span class="badge course-id-badge"> 08695028 </span>
+<span class="badge compulsory-badge"> 网安 <必修></span>
+<span class="badge compulsory-badge"> 智科 <必修></span>
+<span class="badge compulsory-badge"> AI <必修></span>
 </div>
 
 ## 课程学习内容
