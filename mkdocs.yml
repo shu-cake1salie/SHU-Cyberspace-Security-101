@@ -17,15 +17,35 @@ nav:
       - 1_course_computer/index.md
       - 高级语言程序设计: 1_course_computer/08304135_ALP/index.md
       - 程序设计(C语言): 1_course_computer/00864088_C/index.md
-      - 面向对象程序设计 A: 1_course_computer/08305138_OOP/index.md
+      - 面向对象程序设计A: 1_course_computer/08305138_OOP/index.md
       - 离散数学: 1_course_computer/08305152_DM/index.md
-      - 计算机组成原理与体系结构 A: 1_course_computer/08695028_CS/index.md
-      - 矩阵代数与应用 A: 1_course_computer/08695029_MT/index.md
+      - 计算机组成原理与体系结构A: 1_course_computer/08695028_CS/index.md
+      - 矩阵代数与应用A: 1_course_computer/08695029_MT/index.md
       - 数据结构: 1_course_computer/08305009_DS/index.md
-      - 计算机网络 A: 1_course_computer/08305142_CN/index.md
+      - 计算机网络A: 1_course_computer/08305142_CN/index.md
       - 智能系统控制: 1_course_computer/08695008_IC/index.md
       - 操作系统: 1_course_computer/08305011_OS/index.md
       - 数据库原理: 1_course_computer/08A65001_DB/index.md
+      - 编码理论: 1_course_computer/08305093_CT/index.md
+      - 计算机图形学: 1_course_computer/08306027_CG/index.md
+      - 模式识别: 1_course_computer/08306089_PR/index.md
+      - Python计算: 1_course_computer/08306128_PYC/index.md
+      - 大数据：从理论到实践A: 1_course_computer/08306145_BD/index.md
+      - 算法设计与分析A: 1_course_computer/08306146_ADA/index.md
+      - Windows编程技术A: 1_course_computer/08306147_WPT/index.md
+      - 嵌入式系统原理A: 1_course_computer/08306148_ESP/index.md
+      - Web开发技术A: 1_course_computer/08306149_WDT/index.md
+      - 数据挖掘A: 1_course_computer/08306150_DM/index.md
+      - 大数据技术基础A: 1_course_computer/08306151_BDTB/index.md
+      - 信息论: 1_course_computer/08695004_IT/index.md
+      - 机器学习基础: 1_course_computer/08695006_MLB/index.md
+      - 语义网络与知识图谱: 1_course_computer/08696012_SNK/index.md
+      - 数据可视化与人机交互技术: 1_course_computer/08696015_DV/index.md
+      - 自然语言语义处理概论: 1_course_computer/08696018_NLP/index.md
+      - 博弈论与强化学习: 1_course_computer/08696021_RL/index.md
+      - 互联网计算与网络信息学A: 1_course_computer/08696035_ICNI/index.md
+      - 生物特征识别A: 1_course_computer/08696036_BFR/index.md
+      - 区块链技术与数据经济学A: 1_course_computer/08696027_BCT/index.md
   - 网安专业课:
       - 2_course_security/index.md
       - 计算机安全与保密技术: 2_course_security/08A65002_SEC/index.md
