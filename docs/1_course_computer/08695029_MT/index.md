@@ -1,7 +1,8 @@
 # 矩阵代数与应用 A
 <div class="badges">
-<span class="badge ai-badge"> 08695029 </span>
-<span class="badge cs-badge">计算机 <必修></span>
+<span class="badge course-id-badge"> 08695029 </span>
+<span class="badge compulsory-badge"> 网安 <必修></span>
+<span class="badge compulsory-badge"> 智科 <必修></span>
 </div>
 
 ## 课程学习内容

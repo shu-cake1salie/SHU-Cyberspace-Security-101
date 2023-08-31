@@ -198,20 +198,20 @@ body[data-md-prefers-color-scheme=true] .md-icon .unknown-mode {
   vertical-align: baseline;
   border-radius: 0.25rem;
 }
-.is-badge {
+.compulsory-badge {
   background-color: #FF862F;
   color: #161616;
 }
-.cs-badge, .general-badge {
+.selective-badge, .general-badge {
   background-color: #29ABCA;
   color: #161616;
 }
-.ai-badge, .cross-badge {
+.course-id-badge, .cross-badge {
   background-color: #FC6255;
   color: #161616;
 }
-[data-md-color-scheme="default"] .is-badge,
-[data-md-color-scheme="default"] .cs-badge,
-[data-md-color-scheme="default"] .ai-badge {
+[data-md-color-scheme="default"] .compulsory-badge,
+[data-md-color-scheme="default"] .selective-badge,
+[data-md-color-scheme="default"] .course-id-badge {
   color: #FFFFFF;
 }

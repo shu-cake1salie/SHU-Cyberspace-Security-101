@@ -1,7 +1,7 @@
 # 物联网安全
 <div class="badges">
-<span class="badge ai-badge"> 08A66005 </span>
-<span class="badge is-badge">网安 <选修></span>
+<span class="badge course-id-badge"> 08A66005 </span>
+<span class="badge selective-badge">网安 <选修></span>
 </div>
 
 ## 课程学习内容
