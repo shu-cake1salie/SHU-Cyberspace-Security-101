@@ -50,12 +50,13 @@ $ git submodule update --init
 │   ├── general/             # 通识选修课
 │   ├── images/              # 仅用来保存网站图标
 │   ├── js/                  # 本站用到的所有 js 脚本
-│   ├── 1_course_computer/   # 计算机课程
-│   ├── 2_course_security/   # 网安专业课
-│   ├── 3_course_summer/     # 暑期实训
-│   ├── 4_security_ad/       # 安全攻防
-│   ├── 5_security_research/ # 安全研究
-│   └── 6_forum/             # 留言区
+│   ├── docs/                # 课程一览
+│   ├── 1_css/               # 网络空间安全
+│   ├── 2_cst/               # 计算机科学与技术
+│   ├── 3_ist/               # 智能科学与技术
+│   ├── 4_ai/                # 人工智能
+│   ├── 6_forum/             # 留言区
+│   └── 7_friend/            # 友情链接
 ├── mkdocs.yml          # mkdocs 站点设置
 ├── overrides/          # mkdocs-material 个性主题设置
 └── requirements.txt    # 本站构建所需全部 python 依赖
