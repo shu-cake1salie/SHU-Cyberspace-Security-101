@@ -9,6 +9,9 @@ nocomment: True
 
 本网站灵感来源于[浙江大学图灵班学习指南](https://zju-turing.github.io/TuringCourses/)和[上海交通大学生存手册](https://survivesjtu.gitbook.io/survivesjtumanual/)。
 
+!!! note
+    目前我们正在致力于向计算机学院其余专业提供服务，欢迎进行Contribute
+
 上海大学自 2019 年开始招收**网络空间安全**专业本科生。由于学校先前并未曾开设信息安全、网络安全等相关专业，导致了当时网安学科的课程体系倾向于原有的计算机科学与技术学科。
 
 目前已经开设并结课的课程包括：
