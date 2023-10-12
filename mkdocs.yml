@@ -15,6 +15,10 @@ nav:
       - 更新历史: changelog.md
   - 课程:
       - docs/index.md
+      - 网络空间安全: docs/1_css/index.md
+      - 计算机科学与技术: docs/2_cst/index.md
+      - 智能科学与技术: docs/3_ist/index.md
+      - 人工智能: docs/4_ai/index.md
   - 网络空间安全:
       - 1_css/index.md
   - 计算机科学与技术:
